@@ -78,8 +78,8 @@ export default function BookPage() {
               <div>
                 <Typography level="body-xs">Tags:</Typography>
                 <Stack flex={1} flexDirection="row" gap={1} flexWrap="wrap">
-                  {item.tags.map((item, key) => (
-                    <Typography key={key} fontSize="md" fontWeight="lg">
+                  {item.tags.map((item) => (
+                    <Typography fontSize="md" fontWeight="lg">
                       {item.title}
                     </Typography>
                   ))}
